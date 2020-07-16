@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import Welcome from './Components/Welcome';
 import Resources from './Components/Resources'
+import About from './Components/About';
 
 function App() {
   return (
@@ -12,7 +13,11 @@ function App() {
      <Welcome id='Welcome'></Welcome>
      </div>
      <Resources id='Resources'></Resources>
+     <div>
+       <About id="About"></About>
      </div>
+     </div>
+ 
   );
 }
 

@@ -28,10 +28,10 @@
   .nav-item {
     display: inline;
     margin-left: 2rem;
-    color: #333;
+    color: white;
   }
   .nav-item:hover {
-    color: black;
+    color: whitesmoke;
     cursor: pointer;
     text-decoration: underline;
   }
