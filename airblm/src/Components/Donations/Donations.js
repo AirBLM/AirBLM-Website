@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import { apiUrl, paths } from '../../apiConfig';
 
 const Donations = props => {
     const [donations, setDonations] = useState([]);
     const [ppeDonations, setPpeDonations] = useState([]);
-    const url1 = `https://api.airtable.com/v0/app36UstLvKFZ3Aas/Organizations%20in%20need%20of%20Funding%2FSupport?api_key=${process.env.REACT_APP_AIRTABLE_API_KEY}`;
-    const url2 = `https://api.airtable.com/v0/app36UstLvKFZ3Aas/Donations?api_key=${process.env.REACT_APP_AIRTABLE_API_KEY}`
+    const url1 = apiUrl + paths.orgDonations + process.env.REACT_APP_AIRTABLE_API_KEY;
+    const url2 = apiUrl + paths.ppeDonations + process.env.REACT_APP_AIRTABLE_API_KEY;
     
   
     useEffect(() => {
@@ -19,7 +20,7 @@ const Donations = props => {
                 // console.log(res1.records, res2.records);
             })
             .catch(console.error);
-        }, [url1, url2]);
+        }, []);
 
         // console.log(donations, ppeDonations)
 
