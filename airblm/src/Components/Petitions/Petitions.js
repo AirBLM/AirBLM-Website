@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import { apiUrl, paths } from '../../apiConfig';
 
 const Petitions = props => {
-    const [petitions, setPetitions] = useState([])
+    const [petitions, setPetitions] = useState([]);
 
     useEffect(() => {
-        fetch(`https://api.airtable.com/v0/app36UstLvKFZ3Aas/Petitions?api_key=${process.env.REACT_APP_AIRTABLE_API_KEY}`)
+        fetch(apiUrl + paths.petitions + process.env.REACT_APP_AIRTABLE_API_KEY)
             .then((res) => res.json())
             .then(data => {
                 setPetitions(data.records);
