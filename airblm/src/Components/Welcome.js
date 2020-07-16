@@ -1,5 +1,6 @@
 import React from 'react'
 import background from '../assets/image.jpg'
+import './Welcome.css'
 
 // home page content 
 
