@@ -41,12 +41,14 @@ const Petitions = (props) => {
     ))
     
     return(
+      <div>
+        <h2>Petitions</h2>
         <div className="petition-container">
             {petitionsJsx}
         </div>
+      </div>
         )
 
 }
->>>>>>> Display petitions in cards
 
 export default Petitions;
