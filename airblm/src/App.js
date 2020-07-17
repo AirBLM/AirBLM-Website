@@ -1,23 +1,17 @@
-import React from 'react';
-import './App.css';
-import Navbar from './Components/Navbar';
-import Welcome from './Components/Welcome';
-import Resources from './Components/Resources'
-import About from './Components/About';
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import "./App.css";
+import Navbar from "./Components/Navbar";
+import Routes from "./routes";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar></Navbar>
-      <div className = 'Welcome'>
-     <Welcome id='Welcome'></Welcome>
-     </div>
-     <Resources id='Resources'></Resources>
-     <div>
-       <About id="About"></About>
-     </div>
-     </div>
- 
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes />
+      </div>
+    </Router>
   );
 }
 
