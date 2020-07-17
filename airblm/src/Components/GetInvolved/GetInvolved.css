@@ -1,0 +1,12 @@
+.getInvolved-card {
+  width: 320px;
+  height: 290px;
+  margin: 10px;
+  position: relative;
+}
+
+.getInvolved-btn {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
