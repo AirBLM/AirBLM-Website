@@ -1,0 +1,24 @@
+.petition-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.petition-card {
+    width: 320px;
+    height: 222px;
+    margin: 10px;
+}
+
+.petition-name {
+    height: 48px;
+    overflow-y: auto;
+}
+
+.petition-purpose {
+    text-align: justify;    
+    height: 100px;
+    overflow-y: auto;
+}
+
