@@ -77,7 +77,13 @@ const Donations = (props) => {
         className="ppe-actions"
         style={{ "justify-content": "center" }}
       >
-        <Button size="small" href={ppeDonation.fields.Status} target="_blank">
+        <Button
+          variant="contained"
+          color="primary"
+          size="small"
+          href={ppeDonation.fields.Status}
+          target="_blank"
+        >
           Learn More
         </Button>
       </CardActions>
@@ -138,6 +144,8 @@ const Donations = (props) => {
       </CardContent>
       <CardActions className="donation-actions" style={{ display: "block" }}>
         <Button
+          variant="contained"
+          color="primary"
           size="small"
           href={donation.fields.Link}
           target="_blank"
@@ -146,6 +154,7 @@ const Donations = (props) => {
           Learn More
         </Button>
         <Button
+          variant="contained"
           size="small"
           color="secondary"
           href={donation.fields["Donation Link"]}
