@@ -1,10 +1,11 @@
 .About img {
   border-radius: 50%;
   width: calc(20vw);
+  height: auto;
 }
 .About-grid {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto;
   column-gap: 3rem;
 }
 .About p {

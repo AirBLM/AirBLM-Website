@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 import Team from "./Team_Photo";
 import Scott from "../assets/Scott.jpg";
-import Eden from "../assets/image.jpg";
+import Eden from "../assets/eden.jpg";
 import Ying from "../assets/Ying.jpg";
 import Emily from "../assets/Emily.jpg";
 
@@ -10,7 +10,7 @@ import Grid from "@material-ui/core/Grid";
 
 const About = () => {
   return (
-    <Grid className="About" container direction="column" alignItems="center">
+    <Grid className="About" container direction="column" alignItems="center" justify='space-between'>
       <h1>About</h1>
       <div className="About-grid">
         <Team photo={Scott} name="Scott Blender" title="Project Lead"></Team>
