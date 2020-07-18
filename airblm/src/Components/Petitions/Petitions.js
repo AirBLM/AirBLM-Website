@@ -15,12 +15,9 @@ const Petitions = (props) => {
       .then((res) => res.json())
       .then((data) => {
         setPetitions(data.records);
-        // console.log(data.records);
       })
       .catch(console.error);
   }, []);
-
-  // console.log(petitions);
 
   const petitionsJsx = petitions.map((petition) => (
     <Card variant="outlined" className="petition-card">

@@ -23,7 +23,6 @@ const GetInvolveds = (props) => {
       .then((res) => res.json())
       .then((data) => {
         setGetInvolveds(data.records);
-        console.log(data.records);
       })
       .catch(console.error);
   }, []);

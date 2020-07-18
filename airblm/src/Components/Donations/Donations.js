@@ -23,12 +23,9 @@ const Donations = (props) => {
       .then(([res1, res2]) => {
         setDonations(res1.records);
         setPpeDonations(res2.records);
-        // console.log(res1.records, res2.records);
       })
       .catch(console.error);
   }, []);
-
-  // console.log(ppeDonations);
 
   const ppeDonationsJsx = ppeDonations.map((ppeDonation) => (
     <Card variant="outlined" className="ppe-donation-card">
