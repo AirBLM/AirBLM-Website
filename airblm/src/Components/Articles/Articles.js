@@ -53,7 +53,7 @@ const Articles = (props) => {
   ));
 
   return (
-    <div>
+    <div className="article">
       <h1>Articles</h1>
       <Grid container direction="row" justify="space-evenly">
         {ArticlesCard}

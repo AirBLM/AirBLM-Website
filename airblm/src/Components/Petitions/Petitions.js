@@ -56,7 +56,7 @@ const Petitions = (props) => {
   ));
 
   return (
-    <div>
+    <div className="petition">
       <h1>Petitions</h1>
       <div className="petition-container">{petitionsJsx}</div>
     </div>

@@ -65,7 +65,7 @@ const GetInvolveds = (props) => {
   ));
 
   return (
-    <div>
+    <div className="getInvolved">
       <h1>Get Involved</h1>
       <Grid container direction="row" justify="space-evenly">
         {GetInvolvedCard}

@@ -1,22 +1,24 @@
-.About img{
-    border-radius: 50%;
-    width: calc(20vw)
+.About img {
+  border-radius: 50%;
+  width: calc(20vw);
 }
-.About{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+.About-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 3rem;
 }
-.About p{
-    text-align: center;
-    color: whitesmoke;
+.About p {
+  text-align: center;
+  color: whitesmoke;
 }
 
-.About_title{
-    font-size: 3em;
-    color: whitesmoke;
-    text-decoration: underline;
+.About h1 {
+  font-size: 3.5em;
+  color: whitesmoke;
+  text-decoration: underline;
 }
-.About_email{
-    font-size: 2.5em;
-    color: whitesmoke;
+
+.About_email {
+  font-size: 2.5em;
+  color: whitesmoke;
 }
