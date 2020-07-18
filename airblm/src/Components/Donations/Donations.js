@@ -65,34 +65,34 @@ const Donations = (props) => {
   ))
 
     let org
+
+    // const Switch = (donation) => {
+    //   switch (donation.fields.Type) {
+    //     case "Educational":
+    //       return "educational";
+    //       break;
+    //     case "Civil Rights Organization":
+    //       return "civil";
+    //       break;
+    //     case "Nonprofit":
+    //       return "nonprofit";
+    //       break;
+    //     case "For profit":
+    //       return "profit";
+    //       break;
+    //     case "Grassroots":
+    //       return "grassroots";
+    //       break;
+    //     case "Fundraisers":
+    //       return "fundraisers";
+    //       break;
+    //     default:
+    //       return "";
+    //   }
+    // };
   
     const donationsJsx = donations.map(donation => (
- 
-      //     let org 
-      //   switch (true) {
-      //   case donation.fields.Type === 'Educational':
-      //       org = 'educational'
-      //       break;
-      //   case donation.fields.Type === 'Civil Rights Organization':
-      //       org = 'civil'
-      //       break;
-      //   case donation.fields.Type === 'Nonprofit':
-      //       org = 'nonprofit'
-      //       break;
-      //   case donation.fields.Type === 'For profit':
-      //       org = 'profit'
-      //       break;
-      //   case donation.fields.Type === 'Grassroots':
-      //       org = 'grassroots'
-      //       break;
-      //   case donation.fields.Type === 'Fundraisers':
-      //       org = 'fundraisers'
-      //       break;
-      //   default:
-      //       org = ''
-      // }
-
-
+      // Switch(donation)
       <Card variant="outlined" className="donation-card" style={{ 'background-color': '#ffeddb', 'border-radius': '10px' }}>        
       <CardContent>
           <Typography className="donation-name" color="textSecondary" gutterBottom>
