@@ -23,7 +23,7 @@ const About = () => {
         <Team photo={Emily} name="Emily Kwak" title="Frontend Developer"></Team>
       </div>
       <div className="About_email">
-        <p> For further questions, email us at airblm@gmail.com</p>
+        <p> For further questions, email us at _airblm@gmail.com</p>
       </div>
     </Grid>
   );
