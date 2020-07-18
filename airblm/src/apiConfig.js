@@ -1,4 +1,4 @@
-export const apiUrl = 'https://api.airtable.com/v0/app36UstLvKFZ3Aas'
+export const apiUrl = 'https://api.airtable.com/v0/appRdagRmwZkpM7Z4'
 
 export const paths = {
     petitions: '/Petitions?api_key=',
