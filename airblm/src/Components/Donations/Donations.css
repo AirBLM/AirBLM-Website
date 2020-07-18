@@ -1,79 +1,83 @@
+.donation h1 {
+  font-size: 3.5em;
+  text-decoration: underline;
+}
 .donation-actions {
-    position: absolute;
-    bottom: 0;
+  position: absolute;
+  bottom: 0;
 }
 
 .donation-card {
-    width: 155px;
-    height: 220px;
-    margin: 10px;
-    position: relative;
+  width: 155px;
+  height: 220px;
+  margin: 10px;
+  position: relative;
 }
 
 .donations-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .donation-type {
-    text-align: center;
-    color: #808080;
-    border-radius: 8px;
-    padding: 2px; 
+  text-align: center;
+  color: #808080;
+  border-radius: 8px;
+  padding: 2px;
 }
 
 .ppe-actions {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, 5%);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 5%);
 }
 
 .ppe-contact {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 .ppe-donation-card {
-    width: 240px;
-    height: 350px;
-    margin: 10px;
-    position: relative;
+  width: 240px;
+  height: 350px;
+  margin: 10px;
+  position: relative;
 }
 
 .ppe-donation-type {
-    display: block;
-    padding: 2px; 
+  display: block;
+  padding: 2px;
 }
 
 .ppe-items {
-    background-color: #d1f7c4;
-    border-radius: 8px;
+  background-color: #d1f7c4;
+  border-radius: 8px;
 }
 
 /* Different color tags for types of orgs */
 
 .educational {
-    background-color: #d1f7c4;
+  background-color: #d1f7c4;
 }
 
 .civil {
-    background-color: #ffdce5;
+  background-color: #ffdce5;
 }
 
 .fundraisers {
-    background-color: #fee2d5;
+  background-color: #fee2d5;
 }
 
 .grassroots {
-    background-color: #c2f5e9;
+  background-color: #c2f5e9;
 }
 
 .nonprofit {
-    background-color: #cfdfff;
+  background-color: #cfdfff;
 }
 
 .profit {
-    background-color: #d0f0fd;
+  background-color: #d0f0fd;
 }

@@ -1,6 +1,5 @@
 .Resources {
-  position: relative;
-  padding: 150px;
+  display: flex;
 }
 .Button {
   padding: 10px;
