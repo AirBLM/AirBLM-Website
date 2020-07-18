@@ -147,7 +147,7 @@ const Donations = (props) => {
           variant="contained"
           color="primary"
           size="small"
-          href={donation.fields.Link}
+          href={donation.fields["Organization Link"]}
           target="_blank"
           style={{ "margin-left": "10px" }}
         >
