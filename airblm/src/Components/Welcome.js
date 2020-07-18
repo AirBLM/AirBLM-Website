@@ -5,13 +5,13 @@ import { Container, useMediaQuery } from "@material-ui/core/";
 import { useTheme } from "@material-ui/core/styles";
 
 import "./Welcome.css";
-
+import useLockBodyScroll from '../useLockBodyScroll'
 // home page content
 
 const Welcome = () => {
   const theme = useTheme();
   const xs = useMediaQuery(theme.breakpoints.down("xs"));
-
+  useLockBodyScroll();
   return (
     <>
       {xs ? (
