@@ -1,11 +1,9 @@
 .img {
   border-radius: 11%;
   /* Set up proportionate scaling */
-  width: 90%;
-  height: calc(80vh);
+  width: 100%;
+  height: 80vmin;
   /* Set up positioning */
-  top: 0;
-  left: 0;
 }
 .Welcome {
   position: relative;
