@@ -1,0 +1,12 @@
+.article-card {
+  width: 320px;
+  height: 220px;
+  margin: 10px;
+  position: relative;
+}
+
+.article-btn {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
