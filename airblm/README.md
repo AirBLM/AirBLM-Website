@@ -1,68 +1,38 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# AirBLM
+<a href="https://airblm.web.app/" rel="AirBLM website">![Imgur](https://i.imgur.com/NNbPZA5.png)</a>
 
-## Available Scripts
+## Mission Statement
+AirBLM seeks to catalyze change for the BLM movement through iterative Airtable workflows that allow for the dissemination of clear, reliable, up-to-date, and validated information by providing and listing alternative strategies people can engage upon to take action and stay educated.
 
-In the project directory, you can run:
+## Journey
 
-### `npm start`
+We built this web app as part of [Essteem](https://www.essteem.com/)'s Equalithon for Justice for Black Lives.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Equalithon Challenge**:
+How do we enable people at risk of COVID-19 or unable to protest in person to support the movement through tech?
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+***Problem***: Everyday, Instagram, Facebook, Twitter, and other mainstream (old and new) media sources are populated with links, story posts, and other sources of information, contributing to an infodemic for the general public on what is currently happening with the Black Lives Matter movement. There are collections of spreadsheets and documents out there, but oftentimes they are outdated and not regularly updated to ensure all of the information on them is relevant and accurate to the current situations evolving in the US. There are also no clear data validation methods used to ensure the data on these resources is credible and informative.
 
-### `npm test`
+***Solution***: We intend to solve this problem through iterative, Airtable workflows with clearly defined automation and data validation methods to ensure the information we present helps catalyze people to take action. Our information will be aggregated on our website, allowing for ease of access to all of the data we collect on Airtable.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### MVP
 
-### `npm run build`
+We created a website that makes all of our data accessible in one place while utilizing Airtable as our database in order to involve non-developers to contribute to our project currently and in the future.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+***Technologies used***: ReactJS, Material UI, and Airtable API
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+#### Future Iterations
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+***Automation***: data collection and validation via Python scripts and/or other existing web scraping/automation tools.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+***Social***: gamifying the platform and incentivizing users to get involved in a fun and meaningful way.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+***Growth Model***: implementing a national to state to city growth model, starting with a core team and a core Airtable workflow.This will allow people to get involved both at participating in the BLM movement at a local level as well as contributing to data collection of new resources.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+***Tools***: automated email template generation tool for users to get in touch with relevant officials.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Get in touch with us at _airblm@gmail.com
