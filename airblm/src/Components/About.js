@@ -5,7 +5,7 @@ import Scott from "../assets/Scott.jpg";
 import Eden from "../assets/eden.jpg";
 import Ying from "../assets/Ying.jpg";
 import Emily from "../assets/Emily.jpg";
-import Emily_K from '../assets/Emily.jpeg'
+import Emily_K from '../assets/emily_k.jpeg'
 import Maria from '../assets/maria.jpg'
 import Maya from '../assets/maya.jpg'
 
