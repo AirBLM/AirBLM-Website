@@ -7,7 +7,7 @@ import Ying from "../assets/Ying.jpg";
 import Emily from "../assets/Emily.jpg";
 import Emily_K from '../assets/emily_k.jpeg'
 import Maria from '../assets/maria.jpg'
-import Maya from '../assets/maya.jpg'
+import Maya from '../assets/Maya.jpg'
 
 import Grid from "@material-ui/core/Grid";
 
